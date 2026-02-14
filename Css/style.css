@@ -168,3 +168,130 @@ button:hover{
     color: #627382;
     padding-top: 16px;
 }
+
+
+/* card part */
+.card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    margin-top: 44px;
+    padding: 0px 120px;
+}
+.card_img{
+    height:30px;
+    width:30px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.card_components{
+    height:300px;
+    width:322px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.card_components h1{
+    font-size: 24px;
+    font-weight: 600px;
+    padding-top: 16px;
+}
+
+.card_components p{
+    padding-top: 16px;
+    font-size: 16px;
+    color:#627382;
+    font-weight: 400px;
+}
+
+
+/* brain part */
+.brain{
+    margin-top: 120px;
+    padding: 0px 120px;   
+}
+
+.brain_img img{
+    height:600px;
+    width:600px;
+}
+.brain_components{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+
+}
+
+#sol_line{
+    font-size: 16px;
+    color:#469165;
+    font-weight: 500px;
+}
+
+.brain_components h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.brain_components p{
+    font-size: 16px;
+    color:#627382;
+    padding-top: 12px;
+}
+
+.brain_components ul{
+    list-style: none;
+    padding-top: 40px;
+}
+
+.brain_components ul li{
+    padding-bottom: 16px;
+    font-size: 16px;
+    color: #001931;
+    font-weight: 500px;
+}
+
+/* ready to think part */
+.Ready_think_part{
+    margin-top: 120px;
+    padding: 0px 120px;
+
+}
+
+.ready_think_components{
+    max-width: 1320px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.ready_think_components h1{
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+
+#upper{
+    padding-top: 16px;
+    font-size: 16px;
+    color:#627382;
+    font-weight: 400px;
+}
