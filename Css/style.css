@@ -146,3 +146,25 @@ button:hover{
     font-size: 16px;
     font-weight: 600px;
 }
+
+/* below_hero */
+
+.below_hero{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.below_hero_components h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.below_hero_components p{
+    font-size: 16px;
+    opacity:100%;
+    color: #627382;
+    padding-top: 16px;
+}
